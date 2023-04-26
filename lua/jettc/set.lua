@@ -24,5 +24,9 @@ vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 50
 
+--spell checking
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
+
 vim.g.mapleader = " "
-shell="C:/Program Files/Git/bin/bash.exe"
+shell = "C:/Program Files/Git/bin/bash.exe"
