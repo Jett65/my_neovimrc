@@ -47,10 +47,10 @@ return require('packer').startup(function(use)
 
     -- auto
     -- autopairs auto closes "", {}, exs..
-    -- use {
-    -- 	"windwp/nvim-autopairs",
-    --     config = function() require("nvim-autopairs").setup {} end
-    -- }
+    use {
+        "windwp/nvim-autopairs",
+        config = function() require("nvim-autopairs").setup {} end
+    }
     -- auto close tags
     use('windwp/nvim-ts-autotag')
 
