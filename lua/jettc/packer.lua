@@ -13,9 +13,14 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
-    -- Color Schemas
-    use "olimorris/onedarkpro.nvim"
+    -- Color Schemes
+    use("rktjmp/lush.nvim")
+    use { "muchzill4/doubletrouble" }
+    -- use "olimorris/onedarkpro.nvim"
+    -- use("sainnhe/everforest")
+    use("Tsuzat/NeoSolarized.nvim")
     use("sainnhe/everforest")
+    use("luisiacc/gruvbox-baby")
     --
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('nvim-treesitter/playground')

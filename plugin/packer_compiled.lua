@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["NeoSolarized.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\NeoSolarized.nvim",
+    url = "https://github.com/Tsuzat/NeoSolarized.nvim"
+  },
   autofill = {
     loaded = true,
     path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\autofill",
@@ -94,10 +99,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  doubletrouble = {
+    loaded = true,
+    path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\doubletrouble",
+    url = "https://github.com/muchzill4/doubletrouble"
+  },
   everforest = {
     loaded = true,
     path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\everforest",
     url = "https://github.com/sainnhe/everforest"
+  },
+  ["gruvbox-baby"] = {
+    loaded = true,
+    path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-baby",
+    url = "https://github.com/luisiacc/gruvbox-baby"
   },
   harpoon = {
     loaded = true,
@@ -113,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -155,11 +175,6 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
-  },
-  ["onedarkpro.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\jettr\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedarkpro.nvim",
-    url = "https://github.com/olimorris/onedarkpro.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
