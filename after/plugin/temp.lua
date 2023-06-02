@@ -1,0 +1,19 @@
+-- NetrwIsOpen = 0
+--
+-- function ToggleNetrw()
+--     if NetrwIsOpen then
+--         i = vim.api.nvim_get_current_buf()
+--
+--         while (i >= 1) do
+--             if (vim.api.getbufvar(i, "&filetype")) then
+--                 vim.cmd(bwipeout)
+--             end
+--             i = i - 1
+--         end
+--         NetrwIsOpen = 0
+--     else
+--         NetrwIsOpen = 1
+--     end
+-- end
+--
+-- ToggleNetrw()
