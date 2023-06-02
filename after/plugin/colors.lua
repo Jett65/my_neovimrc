@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-    color = color or "doubletrouble"
+    color = color or "gruvbox-baby"
     --color = color or "NeoSolarized"
     --color = color or "everforest"
     vim.cmd.colorscheme(color)
@@ -7,6 +7,8 @@ function ColorMyPencils(color)
     vim.api.nvim_set_hl(0, "Normal", { bg = "#000f1c" })
     -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
     -- vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none"})
+
+    vim.api.nvim_set_hl(0, "cursorline", { bg = "#0c2436" })
 
     vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#00ff00" })
     vim.api.nvim_set_hl(0, "EndOfBuffer", { fg = "#00cdff" })

@@ -44,18 +44,18 @@ lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({ buffer = bufnr })
 end)
 
--- lsp.format_on_save({
---     servers = {
---         ['lua_ls'] = { 'lua' },
---         ['rust_analyzer'] = { 'rust' },
---         ['tsserver'] = { 'typeScript' },
---         ['eslint'] = { 'javaScript' },
---         ['jedi_language_server'] = { 'python' },
---         ['cssls'] = { 'css' },
---         ['html'] = { 'html' },
---         ['jsonls'] = { 'json' },
---     }
--- })
+lsp.format_on_save({
+    servers = {
+        ['lua_ls'] = { 'lua' },
+        ['rust_analyzer'] = { 'rust' },
+        ['tsserver'] = { 'typeScript' },
+        ['eslint'] = { 'javaScript' },
+        ['jedi_language_server'] = { 'python' },
+        ['cssls'] = { 'css' },
+        ['html'] = { 'html' },
+        ['jsonls'] = { 'json' },
+    }
+})
 
 lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({ buffer = bufnr })
@@ -76,10 +76,19 @@ cmp.setup({
     }
 })
 
--- lsp.on_attach(function(client, bufnr)
---   lsp.default_keymaps({buffer = bufnr})
--- end)
---
--- lsp.skip_server_setup({'rust_analyzer'})
+local lsp = require('lsp-zero').preset({})
+
+lsp.on_attach(function(client, bufnr)
+    lsp.default_keymaps({ buffer = bufnr })
+end)
+
+lsp.ensure_installed({
+    -- Replace these with whatever servers you want to install
+    'tsserver',
+    'eslint',
+    'rust_analyzer'
+})
+
+lsp.setup()
 
 lsp.setup()
