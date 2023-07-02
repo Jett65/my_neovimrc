@@ -1,7 +1,5 @@
 function ColorMyPencils(color)
-    color = color or "gruvbox-baby"
-    --color = color or "NeoSolarized"
-    --color = color or "everforest"
+    color = color or "superman"
     vim.cmd.colorscheme(color)
     vim.opt.cursorline = true
     vim.api.nvim_set_hl(0, "Normal", { bg = "#000f1c" })

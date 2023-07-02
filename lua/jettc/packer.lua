@@ -14,14 +14,19 @@ return require('packer').startup(function(use)
     }
 
     -- Color Schemes
-    use("rktjmp/lush.nvim")
-    use { "muchzill4/doubletrouble" }
+    -- use("rktjmp/lush.nvim")
+    -- use { "muchzill4/doubletrouble" }
     -- use "olimorris/onedarkpro.nvim"
     -- use("sainnhe/everforest")
-    use("Tsuzat/NeoSolarized.nvim")
-    use("sainnhe/everforest")
-    use("luisiacc/gruvbox-baby")
-    --
+    -- use("Tsuzat/NeoSolarized.nvim")
+    -- use("sainnhe/everforest")
+    -- use("luisiacc/gruvbox-baby")
+    -- use "EdenEast/nightfox.nvim"
+    -- use "mhartington/oceanic-next"
+    -- use "NLKNguyen/papercolor-theme"
+    -- use "KabbAmine/yowish.vim"
+    use "tristen/superman"
+
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('nvim-treesitter/playground')
     use("ThePrimeagen/harpoon")
