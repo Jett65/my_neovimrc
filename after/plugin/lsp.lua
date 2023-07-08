@@ -7,7 +7,7 @@ end)
 lsp.ensure_installed({
     'tsserver',
     'eslint',
-    'jedi_language_server',
+    'pylsp',
     'lua_ls',
     'cssls',
     'html',
